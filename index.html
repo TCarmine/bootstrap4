@@ -36,12 +36,17 @@
   </nav>
 
 <div class=container style="margin-top:70px">
-  <ul class="nav">
+  <ul class="nav nav-tabs">
         <li class="nav-item">
-          <a href="#" class="nav-link">Item One</a>
+          <a href="#" class="nav-link active">Item One</a>
         </li>
         <li>
-            <a href="#" class="nav-link">Item Two</a>
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Item Two</a>
+            <div class="dropdown-menu">
+              <a href="#" class="dropdown-item">dropdown-one</a>
+              <a href="#" class="dropdown-item">dropdown-two</a>
+              <a href="#" class="dropdown-item">dropdown-three</a>
+            </div>
         </li>
         <li>
             <a href="#" class="nav-link">Item Three</a>
