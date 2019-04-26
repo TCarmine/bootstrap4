@@ -1,3 +1,12 @@
 body{
   background:#f5d9d5;
+  font-family:"Nunito", sans-serif;
+}
+
+.bg-custom{
+  background: rgb(167, 90, 156);
+}
+
+#mainNavbar .navbar-brand{
+   color: #EA1C2C;
 }
