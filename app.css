@@ -15,6 +15,10 @@ body{
   font-size: 1.125rem;
   line-height: 2;
 }
+
+.content{
+  margin-bottom: 100px;
+}
 .bg-custom{
   background: rgb(167, 90, 156);
 }
