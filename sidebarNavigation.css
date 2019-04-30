@@ -1,0 +1,35 @@
+.container{
+    width: 100%;
+}
+
+.content{
+    margin-left: 14rem;
+    margin-top: 2.5rem;
+    width: 85%;
+}
+
+header{
+    padding:0.7em;
+    background-color: red;
+    color: orangered;
+    font-size: large;
+}
+
+header a{
+    background-color: rgb(219, 159, 120);
+    color:rgb(248, 221, 99);
+    text-decoration: none;
+}
+
+header a:hover{
+    text-decoration: none;
+}
+
+.wrapper{
+    position: absolute;
+    top:5rem;
+    left:4rem;
+    width: 8rem;
+    height: 100%;
+    background-color: black;
+}
