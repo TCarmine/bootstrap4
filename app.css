@@ -22,9 +22,7 @@ body{
 .content{
   margin-bottom: 100px;
 }
-.bg-custom{
-  background: rgb(167, 90, 156);
-}
+
 
 #mainNavbar{
   font-size: 1.5rem;
@@ -50,6 +48,14 @@ body{
 #headingGroup h1{
   font-weight: 100;
   font-size: 3rem;
+}
+
+/* .navbar.scrolled {
+  background: rgb(8, 8, 8);
+} */
+
+.navbar.bg-custom{
+  background: rgb(167, 90, 156);
 }
 
 @media(max-width:1050px){
