@@ -16,6 +16,9 @@ body{
   line-height: 2;
 }
 
+.first{
+  margin-bottom: 5rem;
+}
 .content{
   margin-bottom: 100px;
 }
