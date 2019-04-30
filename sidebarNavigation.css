@@ -1,47 +1,55 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
 .container{
+    margin:0;
     width: 100%;
-    margin-left: 0rem;
-    margin-right: 0rem;
+    /* reset padding */
+    padding-left: 0;
 }
 
 .content{
-    margin-left: 14rem;
-    margin-top: 2.5rem;
+    margin-left: 16rem;
+    margin-top: 3rem;
     width: 85%;
+  
 }
 
 header{
+    margin-left:0;
+    padding-left: 0;
     padding:1.5em;
     /* width: 100%; */
     background-color: red;
     color: orangered;
     font-size: large;
-
 }
 
 header a{
     background-color: rgb(219, 159, 120);
     color:rgb(248, 221, 99);
     text-decoration: none;
+    font-size:3.5rem;
 }
 
 header a:hover{
     text-decoration: none;
     
 }
-
-
-
-.wrapper{
+.navigazione{
+    
     position: absolute;
-    top:5rem;
-    left:4rem;
-    width: 8rem;
+    top:8.6rem;
+    left:1rem;
+    width: 10rem;
     height: 100%;
     background-color: black;
 }
 
-.wrapper ul{
+.navigazione ul{
     width: 6rem;
     list-style: none;
     margin-top:0.8rem;
@@ -49,17 +57,45 @@ header a:hover{
     padding:0rem;
 }
 
-.wrapper ul li {
+.navigazione ul li {
    margin-top:0.8rem;
    margin-bottom:0.3rem;
 }
-.wrapper ul li a{
+.navigazione ul li a{
     color:#999;
     text-decoration: none;
     padding:0.3rem;
 }
 
-.wrapper ul li a:hover{
+.navigazione ul li a:hover{
     text-decoration: none;
     color:#fff;
 }
+
+.navigazione ul li a:active,
+.navigazione ul li a:focus{
+    text-decoration: none;
+    outline:none;
+    color:red;
+}
+
+.navigazione ul .navigazione-brand{
+  margin-left:2.2rem;
+  font-size:1.5rem;
+  color:white;
+}
+
+.conheader h1{
+    font-size: 5rem;
+    color: rgb(130, 230, 31);
+}
+
+.navigazione ul .navigazione-brand a{
+    color:white;
+}
+
+.navigazione ul .navigazione-brand a:hover{
+    color:lightblue;
+    background: none;
+}
+
