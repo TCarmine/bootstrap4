@@ -12,10 +12,13 @@ html, body {
     padding-right:0;
 }
 
+
+
 .content{
+    display: flex;
     margin-left: 16rem;
     margin-top: 3rem;
-    width: 85%;
+    width: 100%;
   
 }
 
@@ -48,8 +51,6 @@ header a:hover{
     margin:0;
     padding:0;
     position: absolute;
-    /* top:8.6rem;
-    left:1rem; */
     width: 10rem;
     height: 100%;
     background-color: black;
@@ -67,23 +68,12 @@ header a:hover{
    margin-top:0.8rem;
    margin-bottom:0.3rem;
 }
-.navigazione ul li a{
-    color:#999;
-    text-decoration: none;
-    padding:0.3rem;
-}
 
 .navigazione ul li a:hover{
     text-decoration: none;
     color:#fff;
 }
 
-.navigazione ul li a:active,
-.navigazione ul li a:focus{
-    text-decoration: none;
-    outline:none;
-    color:red;
-}
 
 .navigazione ul .navigazione-brand{
   margin-left:2.2rem;
@@ -98,6 +88,7 @@ header a:hover{
 
 .navigazione ul .navigazione-brand a{
     color:white;
+    padding:0.3rem;
 }
 
 .navigazione ul .navigazione-brand a:hover{
@@ -105,3 +96,10 @@ header a:hover{
     background: none;
 }
 
+@media all and (max-width : 576px){
+   .content {
+       margin-left:auto;
+       align-content: center;
+    }
+  
+}
