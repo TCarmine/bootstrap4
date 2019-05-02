@@ -109,6 +109,8 @@ header a:hover{
     background: none;
 }
 
+
+
 @media all and (max-width : 576px){
    .content {
        margin-left:auto;
