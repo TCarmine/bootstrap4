@@ -16,14 +16,19 @@ html, body {
 
 .content{
     display: flex;
-    margin-right: 5rem;
+    margin-right: auto;
     margin-left: 14rem;
     margin-top: 3rem;
+    padding: 20px;
     width: 100%;
     min-height: 100vh;
 
 }
 
+/* .content p{
+    margin-block-end:15rem;
+    margin-inline-end: 20px;
+} */
 
 .sideb{
     margin:0;
