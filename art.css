@@ -2,3 +2,7 @@ h1{
     font-family: 'Princess Sofia';
     color:red;
 }
+
+section > div > p{
+    font-size: 20px;
+}
